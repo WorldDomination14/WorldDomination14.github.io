@@ -60,7 +60,8 @@
     // ключ для хранения отпечатка браузера
     configChatbot.key = 'fingerprint';
     // реплики чат-бота
-    configChatbot.replicas = {
+    configChatbot.replicas = '/data/data-1.json';
+/*    configChatbot.replicas = {
       bot: {
         0: { content: ['Привет!', 'Я Инфинити - бот поддержки сайта <a href="https://itchief.ru" target="_blank">itchief.ru</a>'], human: [0, 1, 2] },
         1: { content: 'Я тоже рад, как мне к Вам обращаться?', human: [3] },
@@ -87,6 +88,7 @@
         10: { content: '', bot: 9, name: 'contact' },
       }
     }
+    */
     // корневой элемент
     configChatbot.root = SimpleChatbot.createTemplate();
     // URL chatbot.php
